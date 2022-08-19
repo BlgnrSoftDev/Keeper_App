@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBBC04;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 0.1rem 0.6rem 0.3rem #c4c3;
+}
+
+header > h1 {
+    font-family: 'DynaPuff', cursive;
+}
+#plus-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+#plus-icon:hover{
+    color: #ffffffE0;
+}

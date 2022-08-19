@@ -1,0 +1,52 @@
+.editor{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.inner-editor{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem 0.5rem #BBBBBB;
+}
+
+
+.inner-editor input, .inner-editor textarea{
+    border: none;
+    font-size: 2rem;
+}
+
+.inner-editor input:focus, .inner-editor textarea:focus{
+    outline: none;
+    border: none;
+}
+
+.editor-body{
+    resize: none;
+    font-size: 1rem !important;
+}
+
+.btn-container{
+    position: relative;
+}
+
+.add-new-note-btn{
+    position: absolute;
+    right: 0;
+    bottom: -3.1rem;
+    padding: 0.8rem;
+    border-radius: 120rem;
+    border: none;
+    background-color: #FBBC04;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: -0.1rem 0.2rem .2rem .2rem #c3c3c3bb;
+}
+
+.add-new-note-btn:hover{
+    color: #eeeeee;
+}
